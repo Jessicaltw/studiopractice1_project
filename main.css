@@ -528,12 +528,16 @@ line-height: 34px;
          }
    
       
-  .content-2-1-container{
+.content-2-1-container{
       position: relative;
-      width: 1265px;
+      max-width: 1265px;
+      --r:100px;
+       
+      padding: var(--r);
+      box-sizing: border-box;
+      margin: auto;
+      display: block;
       height: 1300px;
-      left: 88px;
-      top: 90px;
       background: #F6F6F6;
 }
 
@@ -542,7 +546,7 @@ position: absolute;
 width: 729px;
 height: 148px;
 left: 120px;
-top: 60px;
+top: 150px;
 
 font-family: 'Baskerville';
 font-style: normal;
@@ -558,7 +562,7 @@ color: #000000;
 width: 125px;
 height: 34px;
 left: 120px;
-top: 290px;
+top: 350px;
 font-family: 'Helvetica Neue';
 font-style: normal;
 font-weight: 500;
@@ -572,7 +576,7 @@ position: absolute;
 width: 405px;
 height: 312px;
 left: 120px;
-top: 350px;
+top: 400px;
 font-family: 'Helvetica Neue';
 font-style: normal;
 font-weight: 400;
@@ -586,7 +590,7 @@ position: absolute;
 width: 162px;
 height: 34px;
 left: 120px;
-top: 630px;
+top: 680px;
 
 font-family: 'Helvetica Neue';
 font-style: normal;
@@ -602,7 +606,7 @@ position: absolute;
 width: 412px;
 height: 336px;
 left: 120px;
-top: 690px;
+top: 720px;
 font-family: 'Helvetica Neue';
 font-style: normal;
 font-weight: 400;
@@ -616,7 +620,7 @@ position: absolute;
 width: 450px;
 height: 310px;
 left: 700px;
-top: 233px;
+top: 263px;
 margin: 0;
 }
 
@@ -625,17 +629,17 @@ position: absolute;
 width: 450px;
 height: 290px;
 left: 700px;
-top: 600px;
+top: 630px;
 margin: 0;
 }
 
 .card-buttons{
-       width : 290px;
+      width : 290px;
    
       height: 129px;
       gap: 20px;  
       padding-top: 1000px;
-      padding-left:120px;
+      padding-left:20px;
       display: flex;  
       width: 1028px; 
       justify-content: space-between;
@@ -663,37 +667,45 @@ width: 120px;
 }
 
 .socialmedia-container{
- position: absolute;
- width: 1440px;
- height: 625px;
- left: 0px;
- top: 1450px;
+
+ width: 100%;
+ display: grid;
+         grid-template-columns: 1fr repeat(2, minmax(auto, 10rem)) 1fr;
+         grid-column: 2/4;
+
+
  background: #FFFFFF;
 }
 
-.socialmedia-container h2{
-      position: absolute;
-width: 319px;
-height: 29px;
-left: 562px;
-top: 20px;
+.socialmedia{
+    padding-top: 7rem;
+}
 
+
+.socialmedia h2{
+   display: grid;
+   grid-template-columns: 1fr ;
+   justify-items: center;
+   padding-bottom: -1rem;
 font-family: "HelveticaNeue";
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
-line-height: 29px;
-
 color: #000000;
 }
 
 
 
 .instgram-box{
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-     padding-top:150px;
+    gap:3rem;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, minmax(auto,10rem)) 1fr;
+    grid-column: 2/4;
+    display: flex;
+    justify-content: center;
+    
+   
+     padding-top:70px;
 }
 
 
@@ -713,7 +725,7 @@ color: #000000;
 
    .AboutUsfooter-container{
     background-color: black;
-    width: 1440px;
+    width: 100%;
     height: 400px;
     padding-top: 50px;
     top: 2100px;
