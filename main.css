@@ -1046,6 +1046,13 @@ input[type=checkbox] + label {
   font-style: italic;
 } 
 
+  .contactus_footer-container{
+    background-color: black;
+        height: 400px;
+        padding-top: 50px;
+        width:100%;
+   }
+
 
 
 
