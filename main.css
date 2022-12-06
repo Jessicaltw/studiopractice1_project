@@ -107,27 +107,14 @@
    }
 
 
-   .content-1{
-         background-image: url(img/bread-16.jpg);
-         background-repeat: no-repeat;
-         background-position: center;
-         height: 630px;
-         left: 83px;
-         top: 150px;
-         margin: 0;
-         padding-top: 100px;
-         
-   }
-
-
-   @media screen and (max-width: 1700px){
     .content-1{
-          background-image: url(img/bread-25.jpg);
-          background-repeat: no-repeat;
-          background-position: center;
-          width: 100%; 
-    }
- }
+    background-image: url(img/bread-16.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 17rem 2rem;
+    text-align: center;      
+   }
 
    .content-1 h1{
     color: white;
@@ -135,15 +122,14 @@
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
-    padding-top: 14rem;
+    padding-top: 4rem;
     display: grid;
     grid-template-columns: 1fr repeat(3, minmax(auto,10rem)) 1fr;
     grid-column: 2/4;
     display: flex;
     justify-content: center;
-  
-
    }
+   
 
    .arrow{
     position: relative; 
