@@ -388,24 +388,24 @@ ol > li > ul > li {
 	margin-top: 8px;
 }
 
-/* On mouse-over, add a grey background color */
+
 .container:hover input ~ .checkmark {
 	background-color: black;
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
+
 .checkmark:after {
 	content: "\2713";
 	position: absolute;
 	display: none;
 }
 
-/* Show the checkmark when checked */
+
 .container input:checked ~ .checkmark:after {
 	display: block;
 }
 
-/* Style the checkmark/indicator */
+
 .container .checkmark:after {
 	background: black;
 	font-size: 12px;
@@ -416,7 +416,7 @@ ol > li > ul > li {
 	color: var(--color-bg);
 }
 
-/* MEDIA QUERIES */
+
 
 @media screen and (max-width: 768px) {
 
