@@ -1094,7 +1094,7 @@ color: #000000;
       }
       
     
-       .envi_footer-container{
+       .envi-footer-container{
         background-color: black;
         height: 400px;
         padding-top: 50px;
@@ -1102,6 +1102,17 @@ color: #000000;
         margin: 0;
         width:100%;
        }
+
+       @media screen and (max-width: 768px) {
+        
+         .envi-footer-container{
+        
+              height: 1300px;
+              width:100%;
+              top: 4500px; 
+     
+    }
+}
 
 .contactus_container h1 {
     font-family: 'Inter';
