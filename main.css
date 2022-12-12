@@ -592,7 +592,7 @@ line-height: 34px;
           color: white;
          }
       
-         .footer-container{
+         .home-footer-container{
           background-color: black;
           height: 400px;
           padding-top: 50px;
@@ -601,6 +601,26 @@ line-height: 34px;
           margin: 0;
           width:100%;
          }
+
+   @media screen and (max-width: 768px) {
+            .footer{
+                  display: grid;
+                  text-align: center;
+                  gap: 30px;
+                  padding-top: 50px;
+             
+            }
+
+              
+             .home-footer-container{
+            
+                  height: 1300px;
+                  width:100%;
+                  top: 4500px; 
+         
+        }
+      }
+        
    
       
 .content-2-1-container{
