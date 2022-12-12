@@ -106,6 +106,25 @@
          
    }
 
+svg{
+    display: none;
+   }
+
+@media screen and (max-width: 768px) {
+    .mainnav{
+          overflow: hidden;
+      display: none;
+          max-width: 768px;
+    }
+
+   svg {
+          display: block; 
+          margin: 0 auto; 
+          float: right;
+    }
+
+}
+
 
     .content-1{
     background-image: url(img/bread-16.jpg); 
@@ -1053,6 +1072,89 @@ input[type=checkbox] + label {
         width:100%;
    }
 
+   .typesofbread-content-3 h2{
+    position: absolute;
+    margin-top:180px;
+
+}
+
+.typesofbread-content-3 p{
+    position: absolute;
+    width:630px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 220px;
+    font-size: 14px;
+}
+
+.typesofbread-content-3{
+
+display: grid;
+grid-template-columns: 1fr ;
+justify-items: center;
+margin-bottom: -1rem; 
+
+}
+
+.typesofbread-card-container{
+   
+    width: 100%;
+    height: 640px;
+    padding-top: 110px;
+    background: #F7F7F7;  
+    margin: 0; 
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 15rem)) 1fr;
+    grid-column: 2/4;
+ 
+}
+
+
+
+.typesofbread-cards{
+    /*display: flex;
+    justify-content: center;*/
+    display: grid;
+    grid-template-columns: 1fr repeat(3, minmax(auto,15rem)) 1fr;
+    grid-column: 2/4;
+    justify-content: center;
+    gap: 30px;  
+    width: 100%;
+    padding-top: 200px;
+}
+
+
+
+.typesofbread-card_image{
+ 
+    object-fit: cover;
+    display: block;
+    width: 12rem;
+}
+
+.ctypesofbread-ard{
+   background-color: white;  
+   height: 20rem;
+   width: 12rem;
+}
+
+.typesofbread-card_content{
+    line-height: 1.3;
+    padding:4px 11px;
+    background: white;
+    font-size: 16px;
+    font-family: var(--body-family);  
+}
+
+.typesofbread-card_content h3{
+font-weight: 400;  
+font-size: 15px;
+padding-top: -2px;
+}
+
+.typesofbread-content-3 p{
+font-weight: 300;  
+}
 
 
 
