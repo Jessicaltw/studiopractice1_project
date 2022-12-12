@@ -336,18 +336,18 @@ svg{
     }
 
     .grid-item-bg1 {
-      background: url(bread-58.jpg) no-repeat center center;
+      background: url(img/bread-58.jpg) no-repeat center center;
       background-size: 100%;
     }
   
     .grid-item-bg2 {
-      background: url(bread-43.webp) no-repeat center center;
+      background: url(img/bread-43.webp) no-repeat center center;
       background-size: 100%;
   
     }
     
     .grid-item-bg3 {
-      background: url(bread-49.jpg)no-repeat center center;
+      background: url(img/bread-49.jpg)no-repeat center center;
       background-size: 100%;
     }
 
