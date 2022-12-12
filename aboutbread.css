@@ -272,7 +272,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%
         display: block;
         height: 980px;
         padding-top: 100px;
-        background-image: url(bread-74.jpg);
+        background-image: url(img/bread-74.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -309,18 +309,18 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%
   }
 
   .grid-item-bg1 {
-    background: url(bread-58.jpg) no-repeat center center;
+    background: url(img/bread-58.jpg) no-repeat center center;
     background-size: 100%;
   }
 
   .grid-item-bg2 {
-    background: url(bread-43.webp) no-repeat center center;
+    background: url(img/bread-43.webp) no-repeat center center;
     background-size: 100%;
 
   }
   
   .grid-item-bg3 {
-    background: url(bread-49.jpg)no-repeat center center;
+    background: url(img/bread-49.jpg)no-repeat center center;
     background-size: 100%;
   }
 
