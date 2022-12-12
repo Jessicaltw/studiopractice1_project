@@ -1018,6 +1018,81 @@ color: #000000;
              object-fit: cover;
              display: block;
       }
+
+.wrapper {
+        max-width: 1000px;
+        margin: 0 auto;
+      /*   overflow-y: hidden; */
+      /*   background-color: #ffdddd; */
+      }
+      
+      .mainVisual {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 150px;
+        margin-bottom: 50px;
+      /*   background-color: #ccffcc; */
+      }
+      
+      .mainVisual__body {
+        background-color: #F6F6F6;
+        position: relative;
+        width: 70%; 
+        left: 30%; 
+        margin-top: -400px;
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-bottom: 100px;
+        padding-left: 20%;
+      }
+      
+      .mainVisual__ttl {
+        font-size: 40px;
+      }
+      
+      .mainVisual__txt {
+        line-height: 2;
+        font-size: 13px;
+        width: 35rem;
+      }
+      .mainVisual__ph {
+        width: 45%;
+        z-index: 1;
+      }
+      
+      .mainVisual__ph img {
+        max-width: 24rem;
+        max-height: 20rem;
+      }
+
+      .mainVisual__body2 {
+        background-color: #F6F6F6;
+        position: relative;
+        width: 80%; 
+        right: 30%;
+        margin-top: -400px;
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-bottom: 100px;
+        padding-left: 20%;
+      }
+
+      .mainVisual__ph2 {
+        width: 45%;
+        z-index: 1;
+        padding-left: 30rem;
+      }
+
+      .mainVisual__ph2 img {
+        max-width: 30rem;
+      }
+
+      .mainVisual__txt2 {
+        line-height: 2;
+        font-size: 13px;
+        width: 30rem;
+      }
+      
     
        .envi_footer-container{
         background-color: black;
