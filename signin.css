@@ -28,6 +28,7 @@ body {
   #back a:hover {
     background-color: #ddd;
     color: black;
+    cursor: pointer;
   }
   
   #back {
