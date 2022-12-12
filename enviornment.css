@@ -1,0 +1,443 @@
+:root{
+    --body-family: 'Inter';
+    font-family: var(--body-family);
+   }
+
+   body{
+        margin:0;
+        width: 100%;
+        
+   }
+
+   a{
+         color: black;
+         font-family: var(--body-family);
+   }
+
+   h1 h2 h3{
+         font-family: "HelveticaNeue";
+   }
+
+   #button1{
+         color: white;
+         font-size: 14px;
+         background-color: black;
+         border: none;
+         border-radius: 5px;
+         position: absolute;
+         width: 140px;
+         height: 41px;
+         cursor: pointer;
+   }
+
+   #button2{
+         color: black;
+         font-size: 14px;
+         background-color: white;
+         border: 1px solid #000000;
+         border-radius: 20px;
+         width: 190px;
+         height: 41px;
+         cursor: pointer;
+   }
+
+   .button2position{
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-items: center;
+   }
+
+
+   .logo a{
+         padding-right: 390px;
+         padding-left: 5px;
+         font-family: Helvetica ; 
+         font-weight: 700; 
+         font-size: 28px; 
+         text-decoration: none;
+   }
+
+   .navcontainer{
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+   }
+
+   .nav{
+         color: black;
+         display: inline;     
+            
+   }
+
+   nav ul{
+         display: inline;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-right:60px;
+         padding-top:30px; 
+         padding-bottom: 30px;
+         background-color: #ffffff;
+         position: fixed; 
+         z-index: 99 ;
+         width: 100%;
+   }
+
+   nav ul li{
+         display: inline-block;
+         padding: 5px 20px;
+
+         margin: 0;
+ 
+   }
+
+   nav ul li a {
+         font-size: 12px;
+         text-decoration: none;
+
+         
+   }
+   
+
+  ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         
+   }
+
+
+   svg{
+    display: none;
+   }
+
+@media screen and (max-width: 768px) {
+    .mainnav{
+          overflow: hidden;
+      display: none;
+          max-width: 768px;
+    }
+
+   svg {
+          display: block; 
+          margin: 0 auto; 
+          float: right;
+    }
+
+}
+
+   
+
+   .header{
+    background-image: url("bread-25.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 14rem 2rem;
+    text-align: center;
+   }
+
+   .header__title,
+   .header_number,
+   .header_body,
+   .header_p{
+    color: #ffffff;
+   }
+
+   .header__title{
+    margin-bottom: 2.5rem;
+
+   }
+
+   .header_number{
+    font-family:"HelveticaNeue";
+    font-size: 2.5rem;
+    padding-bottom: -3rem;
+   }
+
+   .header_body{
+   font-size: 1rem;
+   margin-top: -2rem;
+   display: block;
+   font-weight: 100;
+   padding-top: 1rem;
+   }
+
+   .header p{
+    padding-top: 2rem;
+    font-size: 1rem;
+   }
+    
+   .header a {
+      margin-top: 1rem;
+      display: block;
+      color: #6ddce5;
+      font-size: 0.85rem;
+      text-decoration: none;
+    }
+
+    .envi_1{
+        background-image: url("bread-27.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 8rem 2rem;
+        text-align: center;
+     }
+
+    .envi_1 p{
+        text-align: left;
+        width: 30rem;
+        margin-left:  auto;
+        margin-right: auto;
+        font-size: 0.8rem;
+    }
+
+  .envi_image1 img{
+        background-image: url("bread-28.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+
+    .envi_2{
+        background-image: url("bread-27.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 8rem 2rem;
+        text-align: center;
+     }
+
+    .envi_2 p{
+        text-align: left;
+        width: 30rem;
+        margin-left:  auto;
+        margin-right: auto;
+        font-size: 0.8rem;
+    }
+
+    .envi_image2 img{
+        background-image: url("bread-28.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+
+    .envi_3{
+        background-image: url("bread-27.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 8rem 2rem;
+        text-align: center;
+     }
+
+    .envi_3 p{
+        text-align: left;
+        width: 30rem;
+        margin-left:  auto;
+        margin-right: auto;
+        font-size: 0.8rem;
+    }
+
+    .news-grid-container{
+        max-width: 100%;
+        padding-top: 3rem;
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 8rem)) 1fr;
+        background: white;
+        padding-bottom: 5rem;
+    }
+    
+    .news-grids{
+        gap:3rem;
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto,8rem)) 1fr;
+        grid-column: 2/4;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .news-grid{
+        background-color: white;  
+        height: 420px; 
+        width:500px;
+    }
+    
+    .news_content{
+    margin-top: 15px;;
+    }
+    
+    .NewsandArticles h2{
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-items: center;
+        padding-top:5rem; 
+     
+    }
+    
+    
+    
+    #tag{
+             font-family: 'Futura';
+             font-style: normal;
+             font-weight: 500;
+             font-size: 10px; 
+             color: white;
+             background-color: #31825B;  
+             padding: 7px; 
+             margin-top: 10px; 
+       }
+    
+      .news_content h3{
+             font-family: 'Helvetica Neue';
+             font-style: normal;
+             font-weight: 700;
+             font-size: 20px;
+             line-height: 24px;
+             margin-bottom: 4px;
+      }
+    
+      .news_content p{
+        font-family: 'Hind Vadodara';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: black;
+        width: 100px;
+      }
+    
+      .news_image{
+             width: 270;
+             height: 250px;
+             object-fit: cover;
+             display: block;
+      }
+
+
+     .wrapper {
+        max-width: 1000px;
+        margin: 0 auto;
+      /*   overflow-y: hidden; */
+      /*   background-color: #ffdddd; */
+      }
+      
+      .mainVisual {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 150px;
+        margin-bottom: 50px;
+      /*   background-color: #ccffcc; */
+      }
+      
+      .mainVisual__body {
+        background-color: #F6F6F6;
+        position: relative;
+        width: 70%; 
+        left: 30%; 
+        margin-top: -400px;
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-bottom: 100px;
+        padding-left: 20%;
+      }
+      
+      .mainVisual__ttl {
+        font-size: 40px;
+      }
+      
+      .mainVisual__txt {
+        line-height: 2;
+        font-size: 13px;
+        width: 35rem;
+      }
+      .mainVisual__ph {
+        width: 45%;
+        z-index: 1;
+      }
+      
+      .mainVisual__ph img {
+        max-width: 24rem;
+        max-height: 20rem;
+      }
+
+      .mainVisual__body2 {
+        background-color: #F6F6F6;
+        position: relative;
+        width: 80%; 
+        right: 30%;
+        margin-top: -400px;
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-bottom: 100px;
+        padding-left: 20%;
+      }
+
+      .mainVisual__ph2 {
+        width: 45%;
+        z-index: 1;
+        padding-left: 30rem;
+      }
+
+      .mainVisual__ph2 img {
+        max-width: 30rem;
+      }
+
+      .mainVisual__txt2 {
+        line-height: 2;
+        font-size: 13px;
+        width: 30rem;
+      }
+      
+     
+      
+      
+
+      .footer{
+        font-size: 14px;
+        gap: 80px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-decoration-line: none;
+        line-height: 35px;
+       }
+    
+       .footer a {
+        color: white;
+       }
+    
+       .footer-container{
+        background-color: black;
+        height: 400px;
+        padding-top: 50px;
+        top: 4350px;
+        margin: 0;
+        width:100%;
+       }
+
+       @media screen and (max-width: 768px) {
+        .footer{
+              display: grid;
+              text-align: center;
+              gap: 30px;
+              padding-top: 50px;
+         
+        }
+
+          
+         .footer-container{
+        
+              height: 1300px;
+              width:100%;
+              top: 4500px; 
+     
+    }
+}
+
+
