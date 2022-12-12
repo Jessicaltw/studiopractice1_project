@@ -177,7 +177,7 @@
     }
 
     .envi_1{
-        background-image: url("bread-27.jpg");
+        background-image: url("img/bread-27.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -194,7 +194,7 @@
     }
 
   .envi_image1 img{
-        background-image: url("bread-28.jpg");
+        background-image: url("img/bread-28.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         width: 100%;
@@ -202,7 +202,7 @@
     }
 
     .envi_2{
-        background-image: url("bread-27.jpg");
+        background-image: url("img/bread-27.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -219,7 +219,7 @@
     }
 
     .envi_image2 img{
-        background-image: url("bread-28.jpg");
+        background-image: url("img/bread-28.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         width: 100%;
@@ -227,7 +227,7 @@
     }
 
     .envi_3{
-        background-image: url("bread-27.jpg");
+        background-image: url("img/bread-27.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
